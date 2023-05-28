@@ -1,9 +1,8 @@
-package guessinggame;
-* Java game “Guess a Number” that allows user to guess a random number that has been generated.
-*/
+package ch.zhaw.iwi.devops.demo;
+
 import javax.swing.*;
 
-public class HackrioGuessingGame {
+public class GuessingGame {
    public static void main(String[] args) {
        int computerNumber = (int) (Math.random()*100 + 1);
        int userAnswer = 0;
