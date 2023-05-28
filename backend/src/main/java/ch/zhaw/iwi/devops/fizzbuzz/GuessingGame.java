@@ -38,6 +38,9 @@ public class GuessingGame {
             return "Du bist nahe dran!";
         }
 
+        else if (number == 142) {
+            return "Das ist die Antwort auf alle Fragen plus 100";
+        }
 
         return "Das ist nicht die korrekte Eingabe";
     }
