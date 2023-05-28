@@ -38,6 +38,10 @@ public class GuessingGame {
             return "Du bist nahe dran!";
         }
 
+        else if (number == 42000) {
+            return "Du hast die Antwort auf alle Fragen mal 1000";
+        }
+
         return "Das ist nicht die korrekte Eingabe";
     }
 
