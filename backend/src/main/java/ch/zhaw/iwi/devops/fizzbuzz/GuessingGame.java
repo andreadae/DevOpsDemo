@@ -18,11 +18,11 @@ public class GuessingGame {
             return "Die Eingabe muss eine Zahl wischen 1 und 100 sein";
         }
 
-        else if (number > 100) {
+        else if (number > 100 && number < 42000) {
             return "Die Eingabe muss eine Zahl wischen 1 und 100 sein";
         }
 
-        else if (number > 50) {
+        else if (number > 50 && number < 4200) {
             return "Deine Eingabe ist viel zu hoch";
         }
 
