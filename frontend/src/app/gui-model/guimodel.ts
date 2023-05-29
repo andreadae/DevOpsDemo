@@ -130,7 +130,7 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen bei DevOps von Andrea</h4>",
                             "newRow": true
                         },
                         {
@@ -147,6 +147,15 @@ export class GuiModel {
                             "name": { default: "Poschti-Liste" },
                             "icon": "fa-warehouse",
                             "color": "carrot",
+                            "page": "poschtiPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Poschti-Liste" },
+                            "icon": "fa-warehouse",
+                            "color": "wet-asphalt",
                             "page": "poschtiPage",
                             "width": 2,
                             "newRow": true,
